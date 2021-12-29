@@ -1,0 +1,26 @@
+{
+  "name": "zksync-l2-urbit-sequencer",
+  "version": "1.0.0",
+  "description": "Experiment to see if this would be possible to run a sequencer as a star operator to subsidize & batch transactions to save gas fees by combining NFT transfer transactions together with a single tx on a timely basis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moskalyk/zksync-l2-urbit-sequencer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moskalyk/zksync-l2-urbit-sequencer/issues"
+  },
+  "homepage": "https://github.com/moskalyk/zksync-l2-urbit-sequencer#readme",
+  "dependencies": {
+    "hyper-sdk": "^3.0.9",
+    "hyperbee": "^1.7.0",
+    "hyperbeedeebee": "^1.0.1",
+    "node-cron": "^3.0.0",
+    "zksync": "^0.11.6"
+  }
+}
