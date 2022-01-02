@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/moskalyk/zksync-l2-urbit-sequencer#readme",
   "dependencies": {
+    "express": "^4.17.2",
     "hyper-sdk": "^3.0.9",
     "hyperbee": "^1.7.0",
     "hyperbeedeebee": "^1.0.1",
