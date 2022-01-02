@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+canvas {
+  width: 32em !important;
+  height: 14em !important;
+  margin: auto;
+  padding: 10px;
+}
+
+
+.matter {
+  width: 107px;
+  margin-top: 52px;
+}
+
+.frame {
+  text-align: center;
+}
+
+.title {
+  color:  white;
+  font-family: 'Gothic';
+  font-size: 61px;
+  margin: 8px;
+}
+.body {
+  color: white;
+  font-size: 8px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Gothic';
+  src: local('Gothic'), url(./fonts/dr_po_gothicru_regular.ttf) format('truetype');
+}
