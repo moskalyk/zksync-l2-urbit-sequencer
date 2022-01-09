@@ -161,4 +161,4 @@ function onWindowResize() {
   camera.updateProjectionMatrix();
   webglRenderer.setSize(window.innerWidth, window.innerHeight);
 }
-window.addEventListener("resize", onWindowResize, false);
+//window.addEventListener("resize", onWindowResize, false);

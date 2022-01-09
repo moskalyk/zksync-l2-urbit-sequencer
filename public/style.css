@@ -5,9 +5,11 @@ body {
 }
 
 canvas {
-  width: 417px !important;
+  max-width: 220px !important;
+  min-width: 217px !important;
+  width: 317px !important;
   height: 193px !important;
-  margin: auto;
+  margin: 0 auto;
   padding: 10px;
   display: block;
 }

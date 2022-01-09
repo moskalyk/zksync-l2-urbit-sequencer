@@ -299,7 +299,7 @@ function onMouseMove(e) {
   });
 }
 
-window.addEventListener("resize", onWindowResize);
+//window.addEventListener("resize", onWindowResize);
 
 function onWindowResize() {
   camera.aspect = window.innerWidth / window.innerHeight;
