@@ -59,8 +59,8 @@ const pointsOrange = [];
 
 const loader = new THREE.OBJLoader();
 loader.load(
-  "https://assets.codepen.io/127738/fox_low_poly.obj",
-  function ( obj ) {
+	"https://assets.codepen.io/127738/fox_low_poly.obj",
+	function ( obj ) {
     scene.add( obj );
     obj.children[0].material[0].shininess = 0;
     obj.children[0].material[1].shininess = 0;
@@ -122,7 +122,7 @@ loader.load(
     });
     
     requestAnimationFrame(render);
-  }
+	}
 );
 
 /* RENDERING */

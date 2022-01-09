@@ -5,10 +5,11 @@ body {
 }
 
 canvas {
-  width: 32em !important;
-  height: 14em !important;
+  width: 28em !important;
+  height: 12em !important;
   margin: auto;
   padding: 10px;
+  display: block;
 }
 
 
