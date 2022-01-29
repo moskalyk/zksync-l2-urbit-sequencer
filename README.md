@@ -9,3 +9,5 @@ Experiment to see if this would be possible to run a sequencer as a star operato
 
 # talis arch tx flow
 TODO
+
+![time](./time.png)
